@@ -7,7 +7,7 @@ Tunnel.bindInterface("vRP_ajal",vRPajail)
 vRP = Proxy.getInterface("vRP")
 vRPclient = Tunnel.getInterface("vRP","vRP_ajal")
 
-local jX, jY, jZ = 1687.8145751953,2518.6625976563,-120.84989929199 -- JAIL POSITION
+local jX, jY, jZ = 1651.8054199219,2570.4453125,45.564838409424 -- JAIL POSITION
 
 local aUnjailed = {}
 function ajail_clock(target_id,timer)
